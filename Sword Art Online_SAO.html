@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+</head>
+<style>
+#top{
+position:relative;
+z-index:1;
+height:100vh;
+width:100vw;
+background-attachment:fixed;
+}
+#background{
+background-image:url("Sword Art Online_艾恩葛朗特_2.jpg");
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+position:absolute;
+height:900vh;
+width:100vw;
+z-index:-1;
+opacity:0.7;
+}
+.title{
+	font-size:600%;
+	color:black;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	text-shadow:2px 2px 5px #ffffff;
+}
+.option_1{
+	width:20%;
+	float:left;
+	text-align:center;
+	font-size: 100%;
+	text-shadow:2px 2px 5px #ffffff;
+}
+.content{
+	width:60%;
+	float:left;
+	text-align:left;
+}
+.content_image{
+	float:left;
+	width:25%;
+	height:320px;
+}
+.content_p{
+	float:left;
+	width:75%;
+	height:330px;
+}
+.image_1{
+	height:auto;
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.image_2{
+	height:auto;
+	width:100%;
+	float:left;
+	text-align:center;
+}
+a:link {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:visited {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:hover {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:active {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+p{
+	font-size:25px;
+	text-shadow: 1px 1px 1px #00b8e6;
+}
+h1{
+	text-align:center;
+	font-size:40px;
+}
+h2{
+	text-shadow: 1px 1px 3px #ff3333;
+}
+@media screen and (max-width: 900px) {
+	#background{height:1000vh;}
+	.title{font-size:400%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:25%; height:350px;}
+	.content_p{width:75%; height:360px;}
+	h1{font-size:230%;}
+}
+@media screen and (max-width: 700px) {
+	#background{height:1000vh;}
+	.title{font-size:350%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:30%; height:350px;}
+	.content_p{width:70%; height:360px;}
+	h1{font-size:220%;}
+}
+@media screen and (max-width: 500px) {
+	#background{height:1000vh;}
+	.title{font-size:250%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.image_1{width:100%; height:auto;}
+	.image_2{width:100%; height:auto;}
+	h1{font-size:240%;}
+}	
+@media screen and (max-width: 400px) {
+	#background{height:1800vh;}
+	.title{font-size:250%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:100%; height:auto;text-align:center;}
+	.content_p{width:100%; height:auto;}
+	.image_1{width:100%; height:auto;}
+	.image_2{width:100%; height:auto;}
+	h1{font-size:250%;}
+	p{font-size:20px;}
+}
+* {box-sizing: border-box;}
+</style>
+
+
+<body style="margin:0px">
+<div id="top">
+	<div id="background">
+	</div>
+
+	<div style="height:auto;"><!--top-->
+		<h1 class="title">ソードアート・オンライン</br>アインクラッド</h1>
+	</div>
+
+	<div class="option_1"><!--left-->
+		<li><h1><a href="#簡介">簡介</a></h1></li>
+		<li><h1><a href="#角色">角色</a></h1></li>
+  		<li><h1><a href="#小說">小說</a></h1></li>
+    	<li><h1><a href="#動畫">動畫</a></h1></li>
+    	<li><h1><a href="#音樂">音樂</a></h1></li>
+    	<li><h1><a href="Sword Art Online.html">Logout</a></h1></li>
+	</div>
+
+	<div class="content"><!--center-->
+		<h2 id="簡介">簡介</h2>
+			<p>時間設定在2022年，大廠牌電子機械製造商「ARGUS」發表了「NERvGear」，一款能連結虛擬世界的機器。完全且普及的虛擬實境終於能夠實現。</br>
+			<div class="image_2"><img src= "NERvGear.jpg" width=40%; />
+			</div>
+			<p>主人公，桐人(桐谷和人)是使用NERvGear遊玩VRMMORPG「Sword Art Online」的玩家。很幸運的參與過封閉測試，並買下正式版，在正式營運那天，與其他的9999名玩家一起「完全潛行」，享受著SAO世界。正要結束潛行時，桐人發現登出指令竟然消失。認為只是系統暫時出錯的桐人以及陷入混亂的所有玩家被傳送到開始地點廣場，但頭上傳來的不是等待許久的故障公告，而是自稱是SAO遊戲設計者「茅場晶彥」的人淡淡開始的死亡遊戲說明：不能登出是遊戲的正常現象，只有打倒位於「艾恩葛朗特頂樓第100層的Final Boss」，即達成完全攻略，才是離開這個世界唯一的方法。並且，若是在遊戲內Game Over或是嘗試脫下NERvGear，NERvGear便會發出高頻率微波破壞玩家腦部，造成實際的死亡。</br>
+			<div class="image_2"><img src= "初始廣場.jpg" width=60%; />
+			</div>
+			<p>由於恐懼的影響，最初的一個月內死亡人數就突破了2000多人，而玩家們終究習慣了這個真實存在的虛擬世界。而在兩年後(2024年)，尚有6000多名玩家存活，在此期間，前線玩家攻略至第74層，而桐人也相遇眾多的夥伴，朝著第100層前進...</p>
+		<h2 id="角色">角色</h2>
+			<div class="content_image"><img src= "桐人_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>桐人，本名桐谷和人，在SAO的以攻略艾恩葛朗特最上層為目標，作為攻略組中的獨行玩家，擅長使用單手劍，並因為全身漆黑的形象而獲得「黑色劍士」這一別名。並在緊急情況下獲得獨有技能「二刀流」。</p></div>
+			<div class="content_image"><img src= "亞絲娜_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>亞絲娜，本名結成明日奈，作為遊戲中少數的女性玩家，憑著其強大實力，成為最強公會「血盟騎士團」的副團長，擅長使用單手細劍，並因為攻擊的高速高準度而獲得「閃光」這一別名。</p></div>
+			<div class="content_image"><img src= "西莉卡_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>西莉卡，本名綾野珪子，稀有的「訓獸師」少女，為中層的玩家，使用的武器為短劍，並因為身邊有著一隻名為「畢娜」的翼羽龍使魔，而獲得「龍使·西莉卡」這一別名。</p></div>
+			<div class="content_image"><img src= "莉茲貝特_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>莉茲貝特，本名為篠崎里香，在第48層經營冶煉商店，桐人手中的「逐闇者」及亞絲娜的「閃爍之光」皆出她的手中，使用的武器為雙手錘。</p></div>
+			<div class="content_image"><img src= "結依_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>結依，桐人與亞絲娜的「養女」，與桐亞初遇時，有著記憶錯亂及類似遊戲錯誤的情形，而實際上，她是SAO系統的AI之一。</p></div>
+			<div class="content_image"><img src= "克萊茵_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>克萊茵，本名為壺井遼太郎，為桐人在遊戲中第一位相識的玩家，後來成為攻略組的戰力之一，為公會「風林火山」的會長，使用的武器為太刀。</p></div>
+			<div class="content_image"><img src= "艾基爾_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>艾基爾，本名為安德魯·基爾博德·密魯茲，為桐人在SAO中熟識的商人，在第50層經營道具商店，雖是精打細算的商人，但致力培育中層玩家，本身也具有攻略組玩家的時莉，武器為巨斧。</p></div>
+			<div class="content_image"><img src= "西茲克利夫_SAO.jpg" width=90% /></div>
+			<div class="content_p"><p>西茲克利夫，本名為茅場晶彥，為最強公會「血盟騎士團」的團長，第一位擁有獨特技能的玩家，擁有能在50層至75層前，生命值從未掉至黃色區域的壓倒性防禦力，使用武器為單手劍及十字盾。</p></div>
+		<h2 id="小說">小說</h2>
+			<p>單行本日版由電擊文庫，繁體中文版由台灣角川出版。</p>
+			<div class="image_1">
+			<img src= "刀劍神域第一卷.jpg" width=50%/>
+			<p>第一卷</p>
+			<p>日文版:2009年04月10日</p>
+			<p>繁體中文版:2009年12月26日</p>
+			</div>
+
+			<div class="image_1">
+			<img src= "刀劍神域第二卷.jpg" width=50% />
+			<p>第二卷</p>
+			<p>日文版:2009年08月10日</p>
+			<p>繁體中文版:2010年04月28日</p>
+			</div>
+		<h2 id="動畫">動畫</h2>
+			<p>2011年10月宣布將由A-1 Pictures改編成動畫及遊戲的消息，於2012年7月起放映第一期電視動畫，並在隨後宣布啟動第二期電視動畫項目，其後自2014年7月起放映。第一期動畫包含第一、二卷的艾恩葛朗特篇及後續的妖精之舞篇，全25話。</p>
+			<div class="image_2">
+			<img src= "刀劍神域第一季動畫封面.jpg" width=50% />
+			</div>
+		<h2 id="音樂">音樂</h2>
+			<p>片頭曲</br>
+			   《crossing field》</br>
+			   作詞、作曲：渡邊翔，編曲：阿部尚德</br>
+			   歌：LiSA</p>
+			<p>片尾曲</br>
+			   《ユメセカイ》</br>
+			   作詞：古屋真，作曲：南田健吾，編曲：古川貴浩</br>
+			   歌：戶松遙</p>
+	</div>
+</div>
+
+
+</body>
+</html>
