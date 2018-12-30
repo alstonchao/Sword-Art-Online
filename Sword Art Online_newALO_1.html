@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+</head>
+<style>
+#top{
+	position:relative;
+	z-index:1;
+	height:100vh;
+	width:100vw;
+	background-attachment:fixed;
+}
+#background{
+	background-image:url("Sword Art Online_小島_3.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	position:absolute;
+	height:600vh;
+	width:100vw;
+	z-index:-1;
+	opacity:0.7;
+}
+.title{
+	font-size:600%;
+	color:black;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	text-shadow:2px 2px 5px #ffffff;
+}
+.option_1{
+	width:20%;
+	float:left;
+	text-align:center;
+	font-size: 100%;
+	text-shadow:2px 2px 5px #cccc00;
+}
+.content{
+	width:60%;
+	float:left;
+	text-align:left;
+}
+.content_image{
+	float:left;
+	width:25%;
+	height:320px;
+}
+.content_p{
+	float:left;
+	width:75%;
+	height:330px;
+}
+.image_1{
+	height:auto;
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.image_2{
+	height:auto;
+	width:100%;
+	float:left;
+	text-align:center;
+}
+#主要角色{
+	clear:both;
+}
+#小說{
+	clear:both;
+}
+#動畫{
+	clear:both;
+}
+#音樂{
+	clear:both;
+}
+a:link {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:visited {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:hover {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:active {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+p{
+	font-size:25px;
+	text-shadow: 1px 1px 1px #7733ff;
+}
+h1{
+	text-align:center;
+	font-size:40px;
+}
+h2{
+	text-shadow: 1px 1px 3px #0033cc;
+}
+@media screen and (max-width: 900px) {
+	#background{height:700vh;}
+	.title{font-size:400%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:25%; height:350px;}
+	.content_p{width:75%; height:360px;}
+	h1{font-size:230%;}
+}
+@media screen and (max-width: 700px) {
+	#background{height:700vh;}
+	.title{font-size:350%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:30%; height:350px;}
+	.content_p{width:70%; height:360px;}
+	h1{font-size:220%;}
+}
+@media screen and (max-width: 500px) {
+	#background{height:700vh;}
+	.title{font-size:250%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.image_1{width:100%; height:auto;}
+	.image_2{width:100%; height:auto;}
+	h1{font-size:240%;}
+}	
+@media screen and (max-width: 400px) { /*has bug*/
+	#background{height:650vh;background-image:url("Sword Art Online_小島_3.jpg");}
+	.title{font-size:200%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:100%; height:auto;text-align:center;}
+	.content_p{width:100%; height:auto;}
+	.image_1{width:100%; height:auto;}
+	.image_2{width:100%; height:auto;}
+	h1{font-size:200%;}
+	p{font-size:20px;}
+}
+* {box-sizing: border-box;}
+</style>
+
+
+<body style="margin:0px">
+<div id="top">
+	<div id="background">
+	</div>
+
+	<div style="height:auto;"><!--top-->
+		<h1 class="title">ソードアート・オンライン</br>マザーズ・ロザリオ</h1>
+	</div>
+
+	<div class="option_1"><!--left-->
+		<li><h1><a href="#簡介">簡介</a></h1></li>
+		<li><h1><a href="#主要角色">主要角色</a></h1></li>
+  		<li><h1><a href="#小說">小說</a></h1></li>
+    	<li><h1><a href="#動畫">動畫</a></h1></li>
+    	<li><h1><a href="#音樂">音樂</a></h1></li>
+    	<li><h1><a href="Sword Art Online.html">Logout</a></h1></li>
+	</div>
+
+	<div class="content"><!--center-->
+		<h2 id="簡介">簡介</h2>
+			<p>在「死槍事件」結束的數週後，在某次ALO大型改版中，導入了嶄新的「原創劍技」系統。此時，ALO的艾恩格朗特第24層，出現一為謎樣的女孩，以自己所創造的十一連擊原創劍技作為賭注，與別人進行決鬥。擊敗包含桐人在內的60名玩家，進而獲得「絕劍」的稱號。
+			</br>
+			<div class="image_2">
+				<img src= "絕劍.jpg" width=40%; />
+			</div>
+			<p>亞絲娜也對這位擁有比桐人更快反應速度的玩家產生興趣。在亞絲娜與她對決後，這名女孩邀請亞絲娜加入自己的隊伍，並拜託亞絲娜一件讓亞絲娜意想不到的事情。同時也意外的牽扯出這名女孩背後一連串的故事...</br>
+			<div class="image_2">
+				<img src= "決鬥.jpg" width=60%; />
+			</div>
+			<p></p>
+
+		<h2 id="主要角色">主要角色</h2>
+			<div class="content_image">
+				<img src= "亞絲娜_ALO_2.jpg" width=90% />
+			</div>
+			<div class="content_p">
+				<p>亞絲娜，本名結成明日奈，種族為水精靈，武器為單手細劍，在ALO中也會作為補師協助桐人等人，至於在攻擊方面也十分強勁，因而獲得「狂暴補師」這一別名。</p>
+			</div>
+			<div class="content_image">
+				<img src= "有紀_ALO_2.jpg" width=90% />
+			</div>
+			<div class="content_p">
+				<p>有紀，本名紺野木綿季，種族為闇精靈，武器為單手劍，因持有獨創技能，並打敗眾多挑戰者，因而獲得「絕劍」這一別名。</p>
+			</div>
+
+
+		<h2 id="小說">小說</h2>
+			<p>作者為川原礫，單行本日版由電擊文庫，繁體中文版由台灣角川出版。</p>
+			<div class="image_2">
+			<img src= "刀劍神域第七卷.jpg" width=25%/>
+			<p>第七卷</p>
+			<p>日文版:2011年04月10日</p>
+			<p>繁體中文版:2011年11月02日</p>
+			</div>
+
+		<h2 id="動畫">動畫</h2>
+			<p>2012年7月動畫開播。第七卷的聖母聖詠篇、幽靈子彈篇及外傳斷鋼聖劍篇，共24話，在第18集進入聖母聖詠篇。</p>
+			<div class="image_2">
+			<img src= "刀劍神域第四期動畫封面.jpg" width=50% />
+			</div>
+
+		<h2 id="音樂">音樂</h2>
+			<p>片頭曲</br>
+			   《courage》</br>
+			   作詞、作曲：Nori，編曲：古川貴浩</br>
+			   歌：戶松遙</p>
+			<p>片尾曲</br>
+			   《シルシ》</br>
+			   作詞：LiSA，作曲：カヨコ，編曲：堀江晶太</br>
+			   歌：LiSA</p>
+	</div>
+</div>
+
+
+</body>
+</html>

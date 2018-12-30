@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+</head>
+<style>
+#top{
+	position:relative;
+	z-index:1;
+	height:100vh;
+	width:100vw;
+	background-attachment:fixed;
+}
+#background{
+	background-image:url("Sword Art Online_世界樹_3.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	position:absolute;
+	height:750vh;
+	width:100vw;
+	z-index:-1;
+	opacity:0.7;
+}
+.title{
+	font-size:600%;
+	color:black;
+	text-align:center;
+	padding:0px;
+	margin:0px;
+	text-shadow:2px 2px 5px #ffffff;
+}
+.option_1{
+	width:20%;
+	float:left;
+	text-align:center;
+	font-size: 100%;
+	text-shadow:2px 2px 5px #ffffff;
+}
+.content{
+	width:60%;
+	float:left;
+	text-align:left;
+}
+.content_image{
+	float:left;
+	width:25%;
+	height:320px;
+}
+.content_p{
+	float:left;
+	width:75%;
+	height:330px;
+}
+.image_1{
+	height:auto;
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.image_2{
+	height:auto;
+	width:100%;
+	float:left;
+	text-align:center;
+}
+#主要角色{
+	clear:both;
+}
+#小說{
+	clear:both;
+}
+#動畫{
+	clear:both;
+}
+#音樂{
+	clear:both;
+}
+a:link {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:visited {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:hover {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+a:active {
+	color:black;
+	padding:5px;
+	text-decoration:none;
+}
+p{
+	font-size:25px;
+	text-shadow: 1px 1px 1px #00e600;
+}
+h1{
+	text-align:center;
+	font-size:40px;
+}
+h2{
+	text-shadow: 1px 1px 3px #ffcc00;
+}
+@media screen and (max-width: 900px) {
+	#background{height:900vh;}
+	.title{font-size:400%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:25%; height:350px;}
+	.content_p{width:75%; height:360px;}
+	h1{font-size:230%;}
+}
+@media screen and (max-width: 700px) {
+	#background{height:800vh;}
+	.title{font-size:350%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:30%; height:350px;}
+	.content_p{width:70%; height:360px;}
+	h1{font-size:220%;}
+}
+@media screen and (max-width: 500px) {
+	#background{height:900vh;}
+	.title{font-size:250%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.image_1{width:100%; height:auto;}
+	.image_2{width:100%; height:auto;}
+	h1{font-size:240%;}
+}	
+@media screen and (max-width: 400px) { /*has bug*/
+	#background{height:1100vh;background-image:url("Sword Art Online_世界樹_3.jpg");}
+	.title{font-size:200%;}
+	.option_1{width:100%; height:auto;}
+	.content{width:100%; height:auto;}
+	.content_image{width:100%; height:auto;text-align:center;}
+	.content_p{width:100%; height:auto;}
+	.image_1{width:100%; height:auto;}
+	.image_2{width:100%; height:auto;}
+	h1{font-size:200%;}
+	p{font-size:20px;}
+}
+* {box-sizing: border-box;}
+</style>
+
+
+<body style="margin:0px">
+<div id="top">
+	<div id="background">
+	</div>
+
+	<div style="height:auto;"><!--top-->
+		<h1 class="title">ソードアート・オンライン</br>フェアリィ・ダンス</h1>
+	</div>
+
+	<div class="option_1"><!--left-->
+		<li><h1><a href="#簡介">簡介</a></h1></li>
+		<li><h1><a href="#主要角色">主要角色</a></h1></li>
+  		<li><h1><a href="#小說">小說</a></h1></li>
+    	<li><h1><a href="#動畫">動畫</a></h1></li>
+    	<li><h1><a href="#音樂">音樂</a></h1></li>
+    	<li><h1><a href="Sword Art Online.html">Logout</a></h1></li>
+	</div>
+
+	<div class="content"><!--center-->
+		<h2 id="簡介">簡介</h2>
+			<p>SAO事件後兩年，2024年，在經歷艾恩葛朗特的死鬥後，包括桐人在內的約6000名SAO玩家，回到了現實世界。然而包括亞絲娜在內，尚有300名玩家仍然昏迷不醒。SAO的營運公司也被亞絲娜父親的公司收購。在一次探望仍在病床的亞絲娜時，遭到亞絲娜父親的養子須鄉伸之的鄙視挑釁。</br>
+			<div class="image_2">
+				<img src= "昏睡中的亞絲娜.jpg" width=40%; />
+			</div>
+			<p>在好友艾基爾的幫助下，得到亞絲娜可能被囚禁在另一款VRMMORPG「Alfheim Online」的情報。桐人為了解救亞絲娜而進入了該遊戲，初到這異世界時，在結依和一位風精靈的協助下，朝著亞絲娜所在的世界數最高層前進，而這位風精靈的真實身分則是...</p>
+			<div class="image_2">
+				<img src= "Alfheim online.jpg" width=40%; />
+			</div>
+
+		<h2 id="主要角色">主要角色</h2>
+			<div class="content_image">
+				<img src= "桐人_ALO_1.jpg" width=90% />
+			</div>
+			<div class="content_p">
+				<p>桐人，本名桐谷和人，為了尋找亞絲娜而潛行進Alfheim online，種族為守衛精靈，並在結依及一名風精靈的協助下，逐漸習慣妖精的身體，武器為一把大劍。</p>
+			</div>
+			<div class="content_image">
+				<img src= "亞絲娜_ALO_1.jpg" width=90% />
+			</div>
+			<div class="content_p">
+				<p>蒂塔尼亞(亞絲娜)，本名結成明日奈，種族不明，從SAO登出時，訊號被惡意攔截，因此進入Alfheim online，作為精靈王的王妃，被囚禁在世界樹的最高層。</p>
+			</div>
+			<div class="content_image">
+				<img src= "莉法_ALO_1.jpg" width=90% />
+			</div>
+			<div class="content_p">
+				<p>莉法，本名桐谷直葉，種族為風精靈，是族內排名前五的實力玩家，武器為單手劍，在被火精靈圍攻時，被桐人搭救，而後開始協助桐人認識遊戲並攻略世界樹。</p>
+			</div>
+			<div class="content_image">
+				<img src= "結依_ALO_1.jpg" width=90% />
+			</div>
+			<div class="content_p">
+				<p>結依，被Alfheim online的系統視為導航妖精，在桐人進入Alfheim online時以道具的型態被召喚，可以進行遊戲參數的查詢或連結區域地圖的資料，在得知桐人是為了拯救亞絲娜後，一起參與攻略世界樹的行動。</p>
+			</div>
+			<div class="content_image">
+				<img src= "奧伯龍_ALO_1.jpg" width=90% />
+			</div>
+			<div class="content_p">
+				<p>奧伯龍，種族為光精靈，是Alfheim online的最高存在，擁有系統管理者權限，並將蒂塔尼亞囚禁在世界樹的頂端。</p>
+			</div>
+			
+		<h2 id="小說">小說</h2>
+			<p>作者為川原礫，單行本日版由電擊文庫，繁體中文版由台灣角川出版。</p>
+			<div class="image_1">
+			<img src= "刀劍神域第三卷.jpg" width=50%/>
+			<p>第三卷</p>
+			<p>日文版:2009年12月10日</p>
+			<p>繁體中文版:2010年09月08日</p>
+			</div>
+
+			<div class="image_1">
+			<img src= "刀劍神域第四卷.jpg" width=50% />
+			<p>第四卷</p>
+			<p>日文版:2010年04月10日</p>
+			<p>繁體中文版:2010年11月26日</p>
+			</div>
+
+		<h2 id="動畫">動畫</h2>
+			<p>2014年7月動畫開播，第三、四卷的妖精之舞篇與艾恩葛朗特篇作為第一季動畫，共25話，在第15集進入妖精之舞篇。</p>
+			<div class="image_2">
+			<img src= "刀劍神域第二期動畫封面.jpg" width=50% />
+			</div>
+
+		<h2 id="音樂">音樂</h2>
+			<p>片頭曲</br>
+			   《INNOCENCE》</br>
+			   作詞：Eir、重永亮介，作曲：重永亮介，編曲：下川佳代、重永亮介</br>
+			   歌：藍井艾露</p>
+			<p>片尾曲</br>
+			   《Overfly》</br>
+			   作詞、作曲、編曲：Saku</br>
+			   歌：春奈露娜</p>
+	</div>
+</div>
+
+
+</body>
+</html>
